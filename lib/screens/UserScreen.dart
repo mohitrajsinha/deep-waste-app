@@ -34,7 +34,7 @@ class _UserScreenState extends State<UserScreen> {
   Future addUser() async {
     final user = User(
       name: title,
-      id: 1001,
+      id: 1002,
     );
 
     await DatabaseManager.instance.insertUser(user);
